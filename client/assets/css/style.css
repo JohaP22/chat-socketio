@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "quicksand" ;
+    src: url('../fonts/quicksand.ttf');
+}
+body{
+    background-image: url('../img/romantic-background.png');
+    font-family: 'quicksand', sans-serif;
+}
+.perfil{
+    background-color: #bb9ad2;
+    margin-top: -1%;
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+    padding: 7px;
+    border-bottom: 3px solid white;
+    width: 100%;
+    display: flex;
+}
+.perfil img{
+    width: 60px;
+    height: 60px;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-left: 1.5%;
+}
+.perfil p{
+    font-style: italic;
+}
+#mesagge{
+    padding: 1%;
+    width: 95%;
+    height: 56%;
+    color: white;
+    margin-top: 0px;
+    box-shadow: 1px 1px 1px 2px #5a6465;
+    position: absolute;
+    overflow-y: scroll;
+}
+#mesagge div p{
+    padding: 1%;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    margin-top: 0px;
+    background-color: #bb9ad27a;
+    box-shadow: 1px 1px 1px 2px #5a6465;
+    border-radius: 20px;
+}
+form{
+    margin-top: 1%;
+    width: 100%;
+    background-color: #bb9ad2;
+    border-top: 3px solid white;
+    margin-top: -1%;
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+    padding: 7px;
+    padding-bottom: 15px;
+    margin-bottom: 2%;
+    position: fixed;
+    bottom: 0px;
+}
+form input,form textarea{
+    border-radius: 10px;
+    font-family: 'quicksand';
+}
+form a img{
+    width: 3%;
+}
+form input[type="text"]{
+    width: 20%;
+    border: none;
+    margin-bottom: 2px;
+}
+form input[type="submit"] {
+    border: none;
+    width: 80px;
+    background-color: #b243ff;
+    color: #ffff;
+    font-weight: bold;
+    font-family: 'quicksand';
+}
+form textarea{
+    width: 90%;
+    border: none;
+}
+footer{
+    width: 100%;
+    margin-left: -0.5%;
+    background-color: #bb9ad2;
+    border-top: 3px solid white;
+    position: fixed;
+    bottom: 0px;
+}
+footer p{
+    text-align: center;
+    margin:0px;
+    font-weight: bold;
+}

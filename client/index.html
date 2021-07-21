@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat con Socket.io y NodeJS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <script type="text/javascript" src="/socket.io/socket.io.js"></script>
     <script src="main.js"></script>
 </head>
+
 <body>
-    <h1>Chat con Socket.io y NodeJS</h1>
-    <p>Un chat interno por LAN :)</p>
+    <div class="perfil">
+        <img src="assets/img/user.png"/>
+        <h1>Chat con Socket.io y NodeJS</h1>
+    </div>
     <div id="mesagge"></div>
-    <form onsubmit="addMessage(this)">
-    <input type="text" name="nickname" placeholder="Nombre"/>
-    <textarea name="message" placeholder="Ingresa tu mensaje"></textarea>
-    <input type="submit" value="Enviar"></textarea>
+    <form #formChat onsubmit="return addMessage(this)">
+        <input type="text" name="nickname" placeholder="Nombre" required/>
+        <textarea name="message" placeholder="Ingresa tu mensaje" required></textarea>
+        <input type="submit" value="Enviar">
     </form>
 </body>
+<footer>
+    <p>GitHub: JohaP22</p>
+</footer>
 </html>
